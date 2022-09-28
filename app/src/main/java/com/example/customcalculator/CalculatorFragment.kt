@@ -99,7 +99,6 @@ class CalculatorFragment : Fragment() {
     private fun addSubtractCalculate(passedList: MutableList<Any>): Float
     {
         var result = passedList[0] as Float
-
         for(i in passedList.indices)
         {
             if(passedList[i] is Char && i != passedList.lastIndex)
@@ -157,7 +156,6 @@ class CalculatorFragment : Fragment() {
                     }
                 }
             }
-
             if(i > restartIndex)
                 newList.add(passedList[i])
         }
@@ -213,8 +211,6 @@ class CalculatorFragment : Fragment() {
     }
 
     companion object {
-
-
         fun newInstance(param1: String, param2: String) =
             CalculatorFragment().apply {
                 arguments = Bundle().apply {

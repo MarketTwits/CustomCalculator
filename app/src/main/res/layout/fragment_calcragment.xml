@@ -49,17 +49,22 @@
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
+    <pl.droidsonroids.gif.GifImageView
+        android:layout_width="wrap_content"
+        android:layout_height="176dp"
+        android:src="@drawable/anime_dance"></pl.droidsonroids.gif.GifImageView>
+
     <LinearLayout
         style="@style/buttonRow">
 
         <Button
             style="@style/buttonNumber"
-            android:textColor="@color/red"
+            android:textColor="@color/pink"
             android:text="AC"
             android:id="@+id/btAc"/>
         <Button
             style="@style/buttonNumber"
-            android:textColor="@color/red"
+            android:textColor="@color/pink"
             android:text="⌫"
             android:id="@+id/btClean"/>
         <Button
